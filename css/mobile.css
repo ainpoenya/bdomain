@@ -1,0 +1,237 @@
+@media screen and (max-width: 980px) {
+.header {
+	width: 96%;
+	padding: 20px 2%;
+}
+.banner ul {
+	height: auto;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.35)
+}
+.plan_con, .features_box, .testimonial_box {
+	width: 96%;
+	text-align: center;
+	padding: 30px 2%
+}
+.plan1 {
+	float: none;
+	width: 29%;
+	padding: 0 2%;
+	display: inline-block;
+	vertical-align: top;
+}
+.features_box {
+	font-size: 14px;
+}
+.features_box ul {
+	margin: 25px 0 0;
+}
+.footer_box {
+	width: 96%;
+	padding: 20px 2%;
+}
+.sitemap {
+	padding: 0;
+	width: 24%;
+}
+/***************SUBPAGE*************/
+.sub_planbox {
+	width: 100%;
+	padding: 0;
+	background: none;
+}
+.sub_plan_lt {
+	width: 40%;
+}
+.sub_plan_rt {
+	width: 60%;
+	overflow-x: auto;
+	overflow-y: hidden
+}
+.sub_plan_rt > div {
+	width: 558px;
+}
+}
+@media screen and (max-width: 850px) {
+.banner h1, .sub_banner h1 {
+	font-size: 42px;
+	line-height: 42px;
+}
+.banner h2, .sub_banner h2 {
+	font-size: 20px;
+	line-height: 20px;
+}
+.banner ul {
+	width: 96%;
+	margin: 0 2%;
+}
+.plan1 {
+	width: 410px;
+	margin: 0 0 20px;
+}
+.plan1:last-child {
+	margin: 0;
+}
+.features_box ul {
+	margin: 0;
+}
+.features_box ul li {
+	margin: 20px 0 0;
+	text-align: center;
+	width: 100%;
+}
+.features_box ul li .image_holder {
+	float: none;
+	margin: 0 0 20px;
+}
+.partners {
+	width: 96%;
+	padding: 25px 2%
+}
+.partners img {
+	width: 100%
+}
+/**************BLANK PAGE**************/
+.content-lt, .content-rt {
+	width: 100%;
+}
+.content-rt .sidebox .sidebox_inner .field1 {
+	width: 96%;
+	padding: 0 2%;
+	border: 1px solid #eaeaea;
+}
+.content-rt .sidebox .sidebox_inner .style1 {
+	width: 100%;
+}
+}
+@media screen and (max-width: 667px) {
+.header {
+	text-align: center;
+}
+.logo {
+	float: none;
+	margin: 0 0 10px;
+	display: inline-block;
+}
+.banner_rate {
+	float: none;
+	margin: 0 auto;
+}
+.header_rt, .header_rt ul {
+	width: 100%;
+	text-align: center;
+}
+.header_rt ul li {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.sitemap {
+	width: 49%;
+	margin: 10px 0;
+}
+.sitemap h5 {
+	margin: 0 0 10px;
+}
+}
+@media screen and (max-width: 600px) {
+/***************SUBPAGE*************/
+.sub_banner {
+	height: auto;
+	padding: 50px 0;
+}
+.sub_banner h1 {
+	font-size: 34px;
+	line-height: 36px;
+}
+.sub_banner h2 {
+	font-size: 16px;
+}
+.sub_plan_lt h3 {
+	font-size: 20px;
+	padding-left: 2%;
+}
+.sub_plan_lt ul li {
+	padding-left: 2%;
+}
+.sub_plan1 h3 {
+	font-size: 18px;
+	background: #83ba3a;
+	height: 35px;
+}
+.sub_plan1 .rate .numeric1 {
+	font-size: 32px;
+}
+.sub_plan1 .btn1 {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+.sub_plan1 .btn1 a {
+	font-size: 14px;
+	line-height: 32px;
+}
+.sub_plan_lt {
+	padding-top: 45px;
+}
+.sub_plan_lt, .sub_plan_rt {
+	width: 50%
+}
+.sub_plan_lt a {
+	font-size: 16px;
+	margin: 0 0 0 2%;
+}
+.sub_plan_rt > div {
+	width: 450px;
+}
+.sub_plan1 {
+	width: 150px;
+}
+.sub_plan2 h3 {
+	background: #2fc4ff
+}
+}
+@media screen and (max-width: 480px) {
+.banner {
+	height: auto;
+	width: 96%;
+	padding: 20px 2%;
+}
+.banner h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+.banner h2 {
+	font-size: 16px;
+	line-height: 20px;
+}
+.banner ul li {
+	line-height: 26px;
+}
+.plan1 {
+	width: 96%;
+}
+.sitemap {
+	margin: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+.sitemap ul li {
+	padding: 0;
+	background: none;
+}
+.footer_con {
+	padding: 0;
+}
+.copyright {
+	padding: 15px 2%;
+	width: 96%;
+	font-size: 13px;
+	margin: 0 0 20px;
+}
+/******************SUBPAGE*************/
+.sub_banner_image {
+	background: rgba(0, 0, 0, 0) url("../images/Subpage.jpg") no-repeat scroll center top / cover;
+}
+}
